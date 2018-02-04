@@ -27,8 +27,9 @@ class KNNClassifier:
         self._XTrain = None
         self._yTrain = None
 
-    # 根据训练数据集XTrain和yTrain训练kNN分类器
+    # 根据训练数据集XTrain和yTrain训练kNN分类器，在kNN中这一步就是复制训练数据集
     def fit(self, XTrain, yTrain):
         self._XTrain = XTrain
         self._yTrain = yTrain
+        return self
 
