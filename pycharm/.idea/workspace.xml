@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21b73a1e-5418-4542-9baf-0e34e1cb0526" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/myML/LinearRegression.py" afterPath="$PROJECT_DIR$/myML/LinearRegression.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,6 +36,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myML/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="metrics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myML/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,10 +69,13 @@
       <file leaf-file-name="LinearRegression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myML/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="962">
+              <caret line="132" column="36" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="132" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1036#1164#0" expanded="false" />
+                <element signature="e#1224#1597#0" expanded="false" />
+                <element signature="e#1719#2088#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -365,12 +379,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myML/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myML/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="962">
+          <caret line="132" column="36" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="132" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1036#1164#0" expanded="false" />
+            <element signature="e#1224#1597#0" expanded="false" />
+            <element signature="e#1719#2088#0" expanded="false" />
           </folding>
         </state>
       </provider>
