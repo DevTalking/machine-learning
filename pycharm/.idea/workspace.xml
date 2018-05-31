@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b73a1e-5418-4542-9baf-0e34e1cb0526" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../jupyter notebook/.ipynb_checkpoints/随机梯度下降法-checkpoint.ipynb" afterPath="$PROJECT_DIR$/../jupyter notebook/.ipynb_checkpoints/随机梯度下降法-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/../jupyter notebook/随机梯度下降法.ipynb" afterPath="$PROJECT_DIR$/../jupyter notebook/随机梯度下降法.ipynb" />
       <change beforePath="$PROJECT_DIR$/myML/LinearRegression.py" afterPath="$PROJECT_DIR$/myML/LinearRegression.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,17 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearRegression.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinearRegression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myML/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="132" column="36" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="132" selection-end-column="36" />
+            <state relative-caret-position="485">
+              <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1036#1164#0" expanded="false" />
-                <element signature="e#1224#1597#0" expanded="false" />
-                <element signature="e#1719#2088#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCA.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myML/PCA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,6 +111,7 @@
         <option value="$PROJECT_DIR$/myML/SimpleLinearRegression.py" />
         <option value="$PROJECT_DIR$/myML/metrics.py" />
         <option value="$PROJECT_DIR$/myML/LinearRegression.py" />
+        <option value="$PROJECT_DIR$/myML/PCA.py" />
       </list>
     </option>
   </component>
@@ -113,7 +122,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="721" />
     <option name="y" value="23" />
     <option name="width" value="719" />
     <option name="height" value="833" />
@@ -156,7 +164,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -223,8 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="721" y="23" width="719" height="833" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="719" height="833" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -233,7 +240,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50073856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50073856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -363,14 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myML/SimpleLinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myML/modelSelection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -389,14 +388,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myML/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="132" column="36" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="132" selection-end-column="36" />
+        <state relative-caret-position="485">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1036#1164#0" expanded="false" />
-            <element signature="e#1224#1597#0" expanded="false" />
-            <element signature="e#1719#2088#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myML/SimpleLinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myML/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

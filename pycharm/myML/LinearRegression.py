@@ -28,7 +28,7 @@ class LinearRegression:
         return self
 
     # 使用批量梯度下降法，根据训练数据集X_train，y_train训练LinearRegression模型
-    def fit_gd(self, X_train, y_train, eta=0.01, n_iters=1e4):
+    def fit_gd(self, X_train, y_train, is_debug=False, eta=0.01, n_iters=1e4):
         assert X_train.shape[0] == y_train.shape[0], \
             "特征数据矩阵的行数要等于样本结果数据的行数"
 
@@ -52,12 +52,33 @@ class LinearRegression:
 
             return X_b.T.dot(X_b.dot(theta) - y) * 2 / len(X_b)
 
+        def dL_debug(theta, X_b, y, epsilon=0.01):
+            # 开辟大小与theta向量一致的向量空间
+            result = np.empty(len(theta))
+            # 便利theta向量中的每一个theta
+            for i in range(len(theta)):
+                # 复制一份theta向量
+                theta_1 = theta.copy()
+                # 将第i个theta加上一个距离，既求该theta正方向的theta
+                theta_1[i] += epsilon
+                # 在复制一份theta向量
+                theta_2 = theta.copy()
+                # 将第i个theta减去同样的距离，既求该theta负方向的theta
+                theta_2[i] -= epsilon
+                # 求出这两个点连线的斜率，既模拟该theta的导数
+                result[i] = (L(theta_1, X_b, y) - L(theta_2, X_b, y)) / (2 * epsilon)
+            return result
+
         # 实现批量梯度下降法
-        def gradient_descent(X_b, y, initial_theta, eta, n_iters=1e4, difference=1e-8):
+        def gradient_descent(X_b, y, initial_theta, eta, difference=1e-8):
             theta = initial_theta
             i_iter = 0
             while i_iter < n_iters:
-                gradient = dL(theta, X_b, y)
+                # 当is_debug为True时走debug的求梯度的方法，反之走梯度公式的方法
+                if is_debug:
+                    gradient = dL_debug(theta, X_b, y)
+                else:
+                    gradient = dL(theta, X_b, y)
                 last_theta = theta
                 theta = theta - eta * gradient
 
